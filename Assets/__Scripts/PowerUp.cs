@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class PowerUp : MonoBehaviour {
+	//this is an unusual but handy use of Vector2's, x holds a min value and y a max value for a Random.Range() that will be called later
 	public Vector2 rotMinMax = new Vector2(15, 90);
 	public Vector2 driftMinMax = new Vector2(.25f, 2);
 	public float lifeTime = 6f; //seconds the powerup exists
